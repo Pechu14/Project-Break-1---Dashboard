@@ -1,0 +1,14 @@
+#reloj {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: firebrick;
+    background-color: aqua;
+    width: 700px;
+    border-radius: 50%;
+    padding: 30px;
+}
