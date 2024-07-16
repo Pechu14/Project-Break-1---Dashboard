@@ -1,0 +1,26 @@
+#contraseñas {
+    border:1px solid black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: firebrick;
+    background-color: aqua;
+    width: 300px;
+    border-radius: 25%;
+    padding: 30px;  
+}
+#contraseñas button{
+    border: 1px solid;
+    border-radius: 15%;
+    width: 125px;
+    height: 60px;
+}
+#contraseñas input{
+    width: 80px;
+    height: 52px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: firebrick;
+    font-size: 20px;
+    border-radius: 15%;
+    border: 1px solid;
+    
+}

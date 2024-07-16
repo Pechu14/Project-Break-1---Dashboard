@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clock</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="/css/styles-clock.css">
+    <link rel="stylesheet" href="/css/styles-contraseñas.css"
 </head>
 <body>
     <div id="relojYfrase">
@@ -12,6 +13,16 @@
         <div id="frase"></div>
     </div>  
 
+    <div id="contraseñas">
+        <h3>Inserta el números de caracteres que deseas</h3>
+        <input type="number" id="inputNumber" min="12" max="50" value="12">
+        <button id="botonContra" type="button">Aqui para generar</button>
+        <div id ="contraseñaCreada">
+            
+        </div>
+    </div>
+
 
     <script src="/js/script-clock.js"></script>
+    <script src="/js/script-contraseñas.js"></script>
 </body>
