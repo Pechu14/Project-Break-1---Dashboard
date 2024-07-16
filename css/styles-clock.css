@@ -1,14 +1,19 @@
-#reloj {
+#relojYfrase {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    font-size: 100px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 500px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: firebrick;
     background-color: aqua;
-    width: 700px;
-    border-radius: 50%;
-    padding: 30px;
+    width: 300px;
+    border-radius: 25%;
+    padding: 30px;  
+}
+#divFrase {
+    display: flex;
+    align-items: center;
+
 }
