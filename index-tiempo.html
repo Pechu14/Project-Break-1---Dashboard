@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsión del tiempo</title>
+    <link rel="stylesheet" href="/css/styles-tiempo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body> 
+
+    <div id="estacionMeteorologica">
+       <div id="datosPrincipales">
+            <div><span id="localizacion"></span></div>
+            <div><span id="temp"></span></div>
+        </div>
+        <div id="otrosDatos">
+            <div>Precipitaciones: <span id="precipitaciones">%</span></div>
+            <div>Humedad: <span id="humedad">%</span></div>
+            <div>Viento: <span id="viento">km/h</span></div>
+        </div>
+        <div id="prevision-container"></div>
+    </div>
+
+    <div id="enlacesDirectos">
+        <div><a href="/index-tiempo.html" onclick="irADiv()"><i class="fa-solid fa-temperature-three-quarters"></i></a></div>
+        <div><a href="/index-links.html" onclick="irADiv()"><i class="fa-solid fa-link"></i></a></div>
+        <div><a href="/index-contraseñas.html" onclick="irADiv()"><i class="fa-solid fa-lock"></i></a></div>
+        <div><a href="/index-clock.html" onclick="irADiv()"><i class="fa-regular fa-clock"></i></a></div>
+        <div><a href="/index.html" onclick="irADiv()"><i class="fa-solid fa-house"></i></a></div>
+        
+    </div>
+    
+    <script src="/js/script-tiempo.js"></script>
+</body>

@@ -1,13 +1,12 @@
 #contraseñas {
     text-align: center;
-    border:1px solid black;
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: firebrick;
-    background-color: aqua;
     width: 300px;
     border-radius: 25%;
     padding: 30px;  
+    width: 700px;
 }
 #contraseñas button{
     border: 1px solid;

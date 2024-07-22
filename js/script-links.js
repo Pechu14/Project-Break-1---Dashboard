@@ -50,6 +50,10 @@ function mostrarEnpantalla(urlsParseado){
         listadoEnlaces.appendChild(li);
     }
 }
+function irADiv() {
+    document.querySelector('links').scrollIntoView({ behavior: 'smooth' });
+}
+
 
 
 

@@ -55,6 +55,10 @@ contraseñaCreada.innerHTML= '<p>Aquí tienes tu contraseña: </p>' +
                             '<p>' + contraseñaTotal + '</p>'
 }
 
+function irADiv() {
+    document.querySelector('contraseñas').scrollIntoView({ behavior: 'smooth' });
+}
+
 
 
 

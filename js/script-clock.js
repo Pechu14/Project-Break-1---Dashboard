@@ -83,6 +83,11 @@ function borarFrase() {
 }
 divFrase.addEventListener("click", () => borarFrase())
 
+function irADiv() {
+    document.querySelector('relojYfrase').scrollIntoView({ behavior: 'smooth' });
+}
+
+
 
  
 

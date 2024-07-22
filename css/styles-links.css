@@ -3,10 +3,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: aqua;
-    border:1px solid black;
     border-radius: 25%;
-    width: 400px;
+    width: 700px;
     height: auto;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: firebrick;
