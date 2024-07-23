@@ -12,16 +12,44 @@
     padding: 30px;  
 }*/
 
+
+/*************General**********/
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#enlacesDirectos {
+    display: flex;
+    margin-top: 150px;
+    gap: 20px;
+
+}
+#enlacesDirectos a{
+    font-size:40px ;
+    color: azure;
+    background-color:rgba(79, 76, 76, 0.114);
+   
+}
+
+
+/*************Reloj***************/
+
 #relojYfrase {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    font-size: 50px;
-    font-weight: 500px;
+    font-size: 70px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
-    width: 700px;
-    border-radius: 25%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    width: 100%;
     padding: 30px;  
 }

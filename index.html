@@ -11,51 +11,55 @@
 <body> 
 
 
-
-    <div id="estacionMeteorologica">
-        <div id="datosPrincipales">
-             <div><span id="localizacion"></span></div>
-             <div><span id="temp"></span></div>
+    <div id="arriba">
+        <div id="estacionMeteorologica">
+            <div id="datosPrincipales">
+                <div><span id="localizacion"></span></div>
+                <div><span id="temp"></span></div>
+            </div>
+            <div id="otrosDatos">
+                <div>Precipitaciones: <span id="precipitaciones">%</span></div>
+                <div>Humedad: <span id="humedad">%</span></div>
+                <div>Viento: <span id="viento">km/h</span></div>
+            </div>
+            <div id="prevision-container"></div>
         </div>
-        <div id="otrosDatos">
-             <div>Precipitaciones: <span id="precipitaciones">%</span></div>
-             <div>Humedad: <span id="humedad">%</span></div>
-             <div>Viento: <span id="viento">km/h</span></div>
-        </div>
-         <div id="prevision-container"></div>
-    </div>
 
-    <div id="links">
-        <h3>Guarda aquí tu enlace de interés</h3>
-        <input  id="inputNombre"type="text" placeholder="Escribe aquí el nombre del enlace">
-        <input id="inputEnlace" type="text" placeholder="Escribe aquí el enlace">
-        <button id="anadirEnlace">Guardar enlace</button>
-        <ul id="listadoEnlaces">
-        </ul>
-    </div>
 
-     
-    <div id="relojYfrase">
-        <div id="reloj"></div>
-        <div id="frase"></div>
-    </div>  
-
-    <div id="contraseñas">
-        <h3>Inserta el números de caracteres que deseas</h3>
-        <input type="number" id="inputNumber" min="12" max="50" value="12">
-        <button id="botonContra" type="button">Aqui para generar</button>
-        <div id ="contraseñaCreada">
+        <div id="links">
+            <h3>Guarda aquí tu enlace de interés</h3>
+            <input  id="inputNombre"type="text" placeholder="Escribe aquí el nombre del enlace">
+            <input id="inputEnlace" type="text" placeholder="Escribe aquí el enlace">
+            <button id="anadirEnlace">Guardar enlace</button>
+            <ul id="listadoEnlaces">
+            </ul>
         </div>
     </div>
 
-    
+    <div id="medio">
 
-    <div id="enlacesDirectos">
-        <div><a href="/index-tiempo.html" onclick="irADiv()"><i class="fa-solid fa-temperature-three-quarters"></i></a></div>
-        <div><a href="/index-links.html" onclick="irADiv()"><i class="fa-solid fa-link"></i></a></div>
-        <div><a href="/index-contraseñas.html" onclick="irADiv()"><i class="fa-solid fa-lock"></i></a></div>
-        <div><a href="/index-clock.html" onclick="irADiv()"><i class="fa-regular fa-clock"></i></a></div>
-        <div><a href="/index.html" onclick="irADiv()"><i class="fa-solid fa-house"></i></a></div>
+        <div id="contraseñas">
+            <h3>Inserta el números de caracteres que deseas</h3>
+            <input type="number" id="inputNumber" min="12" max="50" value="12">
+            <button id="botonContra" type="button">Aqui para generar</button>
+            <div id ="contraseñaCreada">
+            </div>
+        </div>
+
+        <div id="relojYfrase">
+            <div id="reloj"></div>
+            <div id="frase"></div>
+        </div>  
+    </div> 
+        
+    <div id="abajo">
+        <div id="enlacesDirectos">
+            <div><a href="/index-tiempo.html" onclick="irADiv()"><i class="fa-solid fa-temperature-three-quarters"></i></a></div>
+            <div><a href="/index-links.html" onclick="irADiv()"><i class="fa-solid fa-link"></i></a></div>
+            <div><a href="/index-contraseñas.html" onclick="irADiv()"><i class="fa-solid fa-lock"></i></a></div>
+            <div><a href="/index-clock.html" onclick="irADiv()"><i class="fa-regular fa-clock"></i></a></div>
+            <div><a href="/index.html" onclick="irADiv()"><i class="fa-solid fa-house"></i></a></div>
+        </div>
     </div>
 
     

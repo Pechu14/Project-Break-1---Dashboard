@@ -1,53 +1,19 @@
-/*#links {
+/*************General**********/
+
+body {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    border-radius: 25%;
-    width: 700px;
-    height: auto;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: firebrick;
-    font-size: 20px;
-    padding: 5px;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-}
-#inputNombre {
-    width: 300px;
-    height: 20px;
-    border-radius: 10%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#inputEnlace {
-    width: 300px;
-    height: 20px;
-    border-radius: 10%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 10px;
-}
-#anadirEnlace {
-    width: 150px;
-    height: 25px;
-    border-radius: 10%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:gray;
-    margin-top: 10px;
-}
-#listadoEnlaces {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    list-style-type: none;
-    gap: 20px;
-}
-a {
-    color:black;
-    text-decoration: none;
-}
-#listadoEnlaces button{
-    background-color: gray;
-    width: 30px;
-}*/
+
+
+/*************Biblioteca de enlaces**********/
 
 
 #links {
@@ -59,10 +25,10 @@ a {
     width: 700px;
     height: auto;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: firebrick;
-    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
     padding: 5px;
-    background-color: blue;
 
 }
 #inputNombre {
@@ -94,11 +60,28 @@ a {
     gap: 20px;
 }
 a {
-    color:black;
-    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    background-color: transparent;
+    text-decoration:none,
 }
 #listadoEnlaces button{
     background-color: gray;
     width: 30px;
 }
 
+
+/*****************Enlaces directos**************/
+
+#enlacesDirectos {
+    display: flex;
+    margin-top: 200px;
+    gap: 20px;
+
+}
+#enlacesDirectos a{
+    font-size:40px ;
+    color: azure;
+    background-color:rgba(95, 89, 89, 0.114);
+   
+}

@@ -1,88 +1,51 @@
-/*#estacionMeteorologica{
+
+body {
     display: flex;
-    flex-wrap: wrap;
-    width: 700px;
-    height: 350px;
-    border-radius: 25%;
-    padding: 30px 40px 80px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-
-#prevision-container {
-    display: flex;
-    gap: 8px;
-    max-width: 500px;
-    max-height: 150px;
-    overflow-x: auto;
-
-}
-.horaPorhora{
-    width: 60px;
- 
-}
-.horaPorhora {
-    text-align: center;
-    gap: 5px;
-    border: 1px solid grey;
-}
-#otrosDatos {
-    text-align: center;
-    margin: 20px 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    color: firebrick;
-    height: 150px;
-
-}
-#datosPrincipales {
-    text-align: center;
-    width: 200px;
-    margin: 20px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: firebrick;
-    height: 150px;
-
-}
-#otrosDatos div {
-    margin-bottom: 30px;
-}*/
 
 
 #estacionMeteorologica{
     display: flex;
     flex-wrap: wrap;
     width: 700px;
-    height: 350px;
+    height: 335px;
     border-radius: 25%;
-    padding: 30px 40px 80px; 
-    background-color: blue;
+    padding: 0px 40px 0px; 
 }
 
 
 #prevision-container {
     display: flex;
     gap: 8px;
-    max-width: 500px;
-    max-height: 150px;
+    width: 1000px;
+    height: 130px;
     overflow-x: auto;
+}
 
-}
-.horaPorhora{
-    width: 60px;
- 
-}
+
 .horaPorhora {
+    width: 60px;
     text-align: center;
     gap: 5px;
     border: 1px solid grey;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    background-color:rgba(95, 89, 89, 0.114);
 }
 #otrosDatos {
     text-align: center;
-    margin: 20px 30px;
+    margin: 20px 100px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    color: firebrick;
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
     height: 150px;
 
 }
@@ -91,12 +54,28 @@
     width: 200px;
     margin: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    color: firebrick;
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
     height: 150px;
 
 }
 #otrosDatos div {
     margin-bottom: 30px;
+
 }
 
+
+#enlacesDirectos {
+    display: flex;
+    margin-top: 300px;
+    gap: 20px;
+    background-color:rgba(32, 31, 31, 0.314);
+
+}
+#enlacesDirectos a{
+    font-size:40px ;
+    color: white;
+
+   
+}

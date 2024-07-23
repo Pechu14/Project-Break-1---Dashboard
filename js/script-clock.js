@@ -43,6 +43,7 @@ const divReloj = document.getElementById("reloj");
  }
  setInterval(mostrarReloj, 1000);
  mostrarReloj();
+ mostrarFrase(datos.getHours());
 
 
  function mostrarFrase(horas){
@@ -76,18 +77,53 @@ const divReloj = document.getElementById("reloj");
         divFrase.innerHTML ='<p>Mañana será otro día</p>'
     }
 }
-divReloj.addEventListener("click", () => mostrarFrase(datos.getHours()))
+/*divReloj.addEventListener("click", () => mostrarFrase(datos.getHours()))
 const divFrase = document.getElementById("frase")
 function borarFrase() {
     divFrase.innerHTML=""
 }
-divFrase.addEventListener("click", () => borarFrase())
+divFrase.addEventListener("click", () => borarFrase())*/
 
 function irADiv() {
     document.querySelector('relojYfrase').scrollIntoView({ behavior: 'smooth' });
 }
 
 
+
+////*******para el cambio de fondo*************** */
+
+
+const imagenes = [
+    'url("assets/img/0.jpg")',
+    'url("assets/img/1.jpg")',
+    'url("assets/img/2.jpg")',
+    'url("assets/img/3.jpg")',
+    'url("assets/img/4.jpg")',
+    'url("assets/img/5.jpg")',
+    'url("assets/img/6.jpg")',
+    'url("assets/img/7.jpg")',
+    'url("assets/img/8.jpg")',
+    'url("assets/img/9.jpg")',
+    'url("assets/img/10.jpg")',
+    'url("assets/img/11.jpg")',
+    'url("assets/img/12.jpg")',
+    'url("assets/img/13.jpg")',
+    'url("assets/img/14.jpg")',
+    'url("assets/img/15.jpg")',
+    'url("assets/img/16.jpg")',
+    'url("assets/img/17.jpg")',
+];
+
+function cambiaFondo() {
+    const randomIn = Math.floor(Math.random() * imagenes.length);
+    console.log(randomIn);
+    document.body.style.backgroundImage = imagenes[randomIn];
+}
+
+setInterval(cambiaFondo, 10000);
+
+
+cambiaFondo()
 
  
 

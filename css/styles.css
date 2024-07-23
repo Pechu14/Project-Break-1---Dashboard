@@ -2,19 +2,36 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#arriba {
+    display: flex;
     flex-wrap: wrap;
-    transition: background 1.5s ease;
+}
+#medio {
+    display: flex;
+    flex-wrap: wrap;
+}
+#abajo {
+    margin-top: auto;
 }
 
 #enlacesDirectos {
     display: flex;
+    margin-top: auto;
     gap: 20px;
 
 }
 #enlacesDirectos a{
     font-size:40px ;
     color: azure;
-    background-color: rgba(0, 0, 0, 0.104);
+    background-color:rgba(95, 89, 89, 0.114);
    
 }
 
@@ -26,12 +43,10 @@ body {
     flex-wrap: wrap;
     align-items: center;
     font-size: 50px;
-    font-weight: 500px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    width: 700px;
-    border-radius: 25%;
+    width: 400px;
     padding: 30px;  
 }
 
@@ -44,10 +59,10 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
-    width: 300px;
+    width: 725px;
+    height: 300px;
     border-radius: 25%;
-    padding: 30px;  
-    width: 700px;
+    padding: 10px 30px 0 30px;  
 }
 #contraseñas button{
     border: 1px solid;
@@ -139,7 +154,7 @@ a {
     width: 700px;
     height: 325px;
     border-radius: 25%;
-    padding: 10px 40px 10px; 
+    padding: 0px 40px 0px; 
 }
 
 
@@ -151,11 +166,10 @@ a {
     overflow-x: auto;
 
 }
-.horaPorhora{
-    width: 60px;
- 
-}
+
+
 .horaPorhora {
+    width: 60px;
     text-align: center;
     gap: 5px;
     border: 1px solid grey;
