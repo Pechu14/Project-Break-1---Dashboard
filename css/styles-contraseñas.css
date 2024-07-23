@@ -1,3 +1,30 @@
+/*#contraseñas {
+    text-align: center;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: firebrick;
+    width: 300px;
+    border-radius: 25%;
+    padding: 30px;  
+    width: 700px;
+}
+#contraseñas button{
+    border: 1px solid;
+    border-radius: 15%;
+    width: 125px;
+    height: 60px;
+}
+#contraseñas input{
+    width: 80px;
+    height: 52px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: firebrick;
+    font-size: 20px;
+    border-radius: 15%;
+    border: 1px solid;
+}*/
+
+
 #contraseñas {
     text-align: center;
     font-size: 20px;
@@ -7,6 +34,7 @@
     border-radius: 25%;
     padding: 30px;  
     width: 700px;
+    background-color: blue;
 }
 #contraseñas button{
     border: 1px solid;
