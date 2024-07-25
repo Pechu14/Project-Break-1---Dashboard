@@ -1,24 +1,18 @@
-/*#relojYfrase {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    font-size: 50px;
-    font-weight: 500px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: firebrick;
-    width: 700px;
-    border-radius: 25%;
-    padding: 30px;  
-}*/
+
 
 
 /*************General**********/
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    height: 100%;
     align-items: center;
     transition: background 1s ease-in-out;
     background-size: cover;
@@ -27,15 +21,15 @@ body {
 }
 #enlacesDirectos {
     display: flex;
-    margin-top: 150px;
+    margin-top: auto;
+    margin-bottom: 24px;
     gap: 20px;
 
 }
 #enlacesDirectos a{
-    font-size:40px ;
+    font-size: 40px ;
     color: azure;
     background-color:rgba(79, 76, 76, 0.114);
-   
 }
 
 
@@ -50,6 +44,5 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    width: 100%;
     padding: 30px;  
 }

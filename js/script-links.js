@@ -28,6 +28,7 @@ function mostrarEnpantalla(urlsParseado){
          a.textContent = urlsParseado[i].key;
          //para guardar el enlace
          a.href = urlsParseado[i].enlace;
+         //para que lo abra en una nueva ventana
          a.target = '_blank';
         
         //para crear un boton de eliminar
@@ -50,47 +51,6 @@ function mostrarEnpantalla(urlsParseado){
         listadoEnlaces.appendChild(li);
     }
 }
-function irADiv() {
-    document.querySelector('links').scrollIntoView({ behavior: 'smooth' });
-}
-
-
-////*******para el cambio de fondo*************** */
-
-
-const imagenes = [
-    'url("assets/img/0.jpg")',
-    'url("assets/img/1.jpg")',
-    'url("assets/img/2.jpg")',
-    'url("assets/img/3.jpg")',
-    'url("assets/img/4.jpg")',
-    'url("assets/img/5.jpg")',
-    'url("assets/img/6.jpg")',
-    'url("assets/img/7.jpg")',
-    'url("assets/img/8.jpg")',
-    'url("assets/img/9.jpg")',
-    'url("assets/img/10.jpg")',
-    'url("assets/img/11.jpg")',
-    'url("assets/img/12.jpg")',
-    'url("assets/img/13.jpg")',
-    'url("assets/img/14.jpg")',
-    'url("assets/img/15.jpg")',
-    'url("assets/img/16.jpg")',
-    'url("assets/img/17.jpg")',
-];
-
-function cambiaFondo() {
-    const randomIn = Math.floor(Math.random() * imagenes.length);
-    console.log(randomIn);
-    document.body.style.backgroundImage = imagenes[randomIn];
-}
-
-setInterval(cambiaFondo, 10000);
-
-
-cambiaFondo()
-
-
 
 
 
